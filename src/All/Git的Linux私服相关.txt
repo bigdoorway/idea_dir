@@ -1,0 +1,18 @@
+﻿Linux的操作创建用户
+创建操作仓库的目录，因为当前是root用户，root用户权限高，一般用户访问不了root用户创建的仓库
+创建操作git私有服务器仓库的用户
+--添加用户名为 git
+adduser -r -c 'git version control' -d /home/git -m git
+-d是操作指定的目录
+-m 是设置用户名称
+
+push提交
+ssh://git@192.168.129.131/home/git/private_git_directory_test
+a. ssh连接Linux的用户名是git
+b. home/git/private_git_directory_test 指定要提交到服务器的仓库路径
+
+colne克隆
+地址还是ssh的地址ssh://git@192.168.129.131/home/git/private_git_directory_test
+--克隆后会提示错误，但是不影响，可以忽略
+
+pull拉取操作无影响

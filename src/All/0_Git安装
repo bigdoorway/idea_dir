@@ -3,4 +3,13 @@
 需要安装：
 ① Git服务器  Git-2.13.0-64-bit.exe
 ② Git客户端  TortoiseGit-2.4.0.2-64bit.msi
+ --尽量用默认选项，安装后完成后，最后界面默认勾选不要动，完成后会有客户端的设置弹出。
 ③ 选择性安装语言包  TortoiseGit-LanguagePack-2.4.0.0-64bit-zh_CN.msi
+
+2. 如果是用GitHub作为远端共享仓库
+只需设置ssh登录方式 或者 Https登录方式即可
+
+3. 如果是使用私服作为远端共享仓库
+需要知道Linux的ssh登录方式
+
+4. 在Linux上的私服搭建
